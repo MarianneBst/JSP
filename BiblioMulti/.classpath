@@ -34,5 +34,6 @@
 	<classpathentry kind="lib" path="C:/Users/thiba/Documents/Cours/4A/S8/Architecture SI/tpnote/JSP/lib hibernate/paranamer-2.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/thiba/Documents/Cours/4A/S8/Architecture SI/tpnote/JSP/lib hibernate/slf4j-api-1.6.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/thiba/Documents/Cours/4A/S8/Architecture SI/tpnote/JSP/lib hibernate/xml-apis-1.3.03.jar"/>
+	<classpathentry kind="lib" path="C:/Users/thiba/Documents/Cours/4A/S8/Architecture SI/tpnote/JSP/TOMCAT 7.0.84/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

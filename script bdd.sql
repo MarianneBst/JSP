@@ -84,3 +84,5 @@ ALTER TABLE musique ADD CONSTRAINT FK_musique_id_element FOREIGN KEY (id_element
 ALTER TABLE clip ADD CONSTRAINT FK_clip_id_element FOREIGN KEY (id_element) REFERENCES element(id_element);
 ALTER TABLE clip ADD CONSTRAINT FK_clip_id_musique FOREIGN KEY (id_musique) REFERENCES musique(id_musique);
 ALTER TABLE clip ADD CONSTRAINT FK_clip_id_element_1 FOREIGN KEY (id_element_1) REFERENCES element(id_element);
+
+INSERT INTO utilisateur (login, password, droit_modification) VALUES ('Admin', 'password', true);
