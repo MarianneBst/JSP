@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <% 
 String user = (String)session.getAttribute("utilisateur");
-if(user != null)
+if(user != null && user.compareTo("") != 0)
 	response.sendRedirect("Accueil.jsp");
 %>
 <html>
@@ -12,14 +12,17 @@ if(user != null)
 <title>Connexion</title>
 </head>
 <body>
+<%=session.getAttribute("tentativeConnexion") %>
+<%=session.getAttribute("utilisateur") %>
 <header> <h1>Connectez -vous !</h1></header>
-<% if((String)session.getAttribute("tentativeConnexion") != null)
-	out.print("<p color=\"RED\">Tentative de connexion échouée</p>");
+<% if(session.getAttribute("tentativeConnexion") != null && ((String)session.getAttribute("tentativeConnexion")).compareTo("true") == 0)
+	out.print("<p style=\"color=red\">Tentative de connexion échouée</p>");
 %>
+
 <form action="Authentification" method="POST">
-<label>Nom utilisateur :</label><input type="text" name="login"/>
+Nom utilisateur :<input type="text" name="login"/>
 <br/>
-<label>Mot de Passe :</label><input type="text" name="password"/>
+Mot de Passe :<input type="text" name="password"/>
 <br/>
 <input type="submit" Value="Se connecter"/>
 </form>
