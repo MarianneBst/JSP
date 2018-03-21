@@ -8,13 +8,12 @@ if(user != null && user.compareTo("") != 0)
 %>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+<%@ include file="head.html" %>
 <title>Connexion</title>
 </head>
-<body class="container">
+<body>
+<%@ include file="header.jsp" %>
+<div class="container">
 <div class="row justify-content-center">
 <%-- 
 <%=session.getAttribute("tentativeConnexion") %>
@@ -39,7 +38,7 @@ if(user != null && user.compareTo("") != 0)
 </form>
     
 </div>
-    
+</div>
 <%-- 
 <form action="Authentification" method="POST">
 Nom utilisateur :<input type="text" name="login"/>
