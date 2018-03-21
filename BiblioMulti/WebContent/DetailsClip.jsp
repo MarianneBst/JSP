@@ -7,7 +7,7 @@
 <title>Détails Clip</title>
 </head>
 <body>
-<%@ include file="header.jsp" %>
+<%@ include file="header.html" %>
 <h1>Détails Clip</h1>
 <form>
 <video controls src="https://youtu.be/f4Mc-NYPHaQ"></video>

@@ -7,7 +7,7 @@
 <title>Détails Film</title>
 </head>
 <body>
-<%@ include file="header.jsp" %>
+<%@ include file="header.html" %>
 <h1>Détails Film</h1>
 <form>
 <img src="C:\Users\maria\Documents\Polytech Tours\4A\S8\Archi des SI\TP noté\JSP\BiblioMulti\WebContent\HP1.jpg" alt="Harry Potter 1" width="300" height="410">

@@ -6,7 +6,7 @@
 <title>Accueil</title>
 </head>
 <body>
-<%@ include file="header.jsp" %>
+<%@ include file="header.html" %>
 <h1 class="jumbotron-heading">Bibliothèques tourangelles !</h1>
 <h2 class="lead text-muted">Trouvez tous les contenus multimédias existants dans le monde !</h2>
 <form>

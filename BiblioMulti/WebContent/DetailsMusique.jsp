@@ -7,7 +7,7 @@
 <title>Détails Musique</title>
 </head>
 <body>
-<%@ include file="header.jsp" %>
+<%@ include file="header.html" %>
 <h1>Détails Musique</h1>
 <form>
 <audio controls src="SiaTheGreatest.mp3" type="audio/mpeg"></audio>

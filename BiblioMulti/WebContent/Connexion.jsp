@@ -12,7 +12,7 @@ if(user != null && user.compareTo("") != 0)
 <title>Connexion</title>
 </head>
 <body>
-<%@ include file="header.jsp" %>
+<%@ include file="header.html" %>
 <div class="container">
 <div class="row justify-content-center">
 <%-- 
